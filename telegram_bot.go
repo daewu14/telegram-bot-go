@@ -39,6 +39,7 @@ func SendMessage(data request.SendMessageRequest) response.ServiceResponse {
 	return do(services.SendMessageService{TeleRepo: teleRepo(), Data: data})
 }
 
+// SetWebhook is method to set telegram bot webhook configuration
 func SetWebhook(data request.SetWebhookRequest) response.ServiceResponse {
 	return do(services.SetWebhookService{TeleRepo: teleRepo(), Data: data})
 }
