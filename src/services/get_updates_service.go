@@ -1,8 +1,8 @@
 package services
 
 import (
-	"telegram_bot/src/repositories"
-	"telegram_bot/src/response"
+	"github.com/daewu14/telegram-bot-go/src/repositories"
+	"github.com/daewu14/telegram-bot-go/src/response"
 )
 
 type GetUpdatesService struct{ TeleRepo repositories.TelegramInterface }

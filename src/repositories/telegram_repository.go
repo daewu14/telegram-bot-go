@@ -1,10 +1,10 @@
 package repositories
 
 import (
-	"telegram_bot/src/base"
-	"telegram_bot/src/models/request"
-	"telegram_bot/src/models/response"
-	"telegram_bot/src/utils"
+	"github.com/daewu14/telegram-bot-go/src/base"
+	"github.com/daewu14/telegram-bot-go/src/models/request"
+	"github.com/daewu14/telegram-bot-go/src/models/response"
+	"github.com/daewu14/telegram-bot-go/src/utils"
 )
 
 type TelegramInterface interface {

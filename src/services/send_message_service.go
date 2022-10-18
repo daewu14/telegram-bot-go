@@ -1,9 +1,9 @@
 package services
 
 import (
-	"telegram_bot/src/models/request"
-	"telegram_bot/src/repositories"
-	"telegram_bot/src/response"
+	"github.com/daewu14/telegram-bot-go/src/models/request"
+	"github.com/daewu14/telegram-bot-go/src/repositories"
+	"github.com/daewu14/telegram-bot-go/src/response"
 )
 
 type SendMessageService struct{

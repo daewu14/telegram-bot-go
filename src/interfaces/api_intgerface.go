@@ -1,6 +1,6 @@
 package interfaces
 
-import "telegram_bot/src/base"
+import "github.com/daewu14/telegram-bot-go/src/base"
 
 type ApiInterface interface {
 	Get(endpoint string) base.NetClient

@@ -1,6 +1,6 @@
 package response
 
-import "telegram_bot/src/base"
+import "github.com/daewu14/telegram-bot-go/src/base"
 
 type SendMessageResponse struct {
 	base.ResponseBase
