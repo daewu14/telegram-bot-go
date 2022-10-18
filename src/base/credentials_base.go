@@ -28,8 +28,9 @@ func SetToken(token string) { _token = token }
 
 // GetBaseUrl is Getter to getting base url
 func GetBaseUrl() string {
+	var url = baseUrl
 	if _token != "" {
-		baseUrl += "bot"+_token+"/"
+		url += "bot"+_token+"/"
 	}
-	return baseUrl
+	return url
 }
