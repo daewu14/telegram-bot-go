@@ -1,3 +1,3 @@
 package tests
 
-const tokenTest = "YOUR_AWESOME_TELEGRAM_BOT_TOKEN"
+const tokenTest = "YOUR_AWESOME_github.com/daewu14/telegram-bot-go_TOKEN"

@@ -1,10 +1,10 @@
 package tests
 
 import (
-	"telegram_bot/src/base"
-	"telegram_bot/src/models/response"
-	"telegram_bot/src/repositories"
-	"telegram_bot/src/services"
+	"github.com/daewu14/telegram-bot-go/src/base"
+	"github.com/daewu14/telegram-bot-go/src/models/response"
+	"github.com/daewu14/telegram-bot-go/src/repositories"
+	"github.com/daewu14/telegram-bot-go/src/services"
 	"testing"
 )
 
